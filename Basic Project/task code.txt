@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	  <title>Sample Task</title>
+	  <style>
+		.align{
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		}
+
+		a{
+		margin-right:30px;
+		}
+
+		a{
+		color:red;
+		}
+
+		body{
+		background-color: white;
+		background-size:cover;
+		}
+
+		.grid-item1{
+			width:100%;
+			height: auto;
+			display: flex;
+			background-color:rgb(255, 255, 255);
+			align-items: center;
+			justify-content:space-around;
+		}
+
+		.container{
+			width: 340px;
+			height: 320px;
+			background-color:rgb(204, 203, 203);
+			border-radius: 10px;			
+		}
+
+		.test1
+		{
+			text-align: center;
+			font-size:smaller;
+		}
+
+		.test2{
+			text-align: center;
+			font-size:17px;
+			color:rgb(129, 89, 89);
+		}
+
+		.user{
+			margin-left: 27px;
+		}
+
+		.user2{
+			margin-left: 20px;
+		}
+
+		p{
+			color: red;
+		}
+
+	  </style>
+	</head>
+		<body>
+			<div class="grid-container">
+				
+		      <h1 align=center style="color:black">  BROWSE TOPICS <h1>
+				<div class="align">
+				<h5>
+				 <a href="https://www.merriam-webster.com/dictionary/design" > Design</a>
+				 <a href="https://en.wikipedia.org/wiki/Marketing"> Marketing</a>
+				 <a href="https://en.wikipedia.org/wiki/Finance"> Finance</a>
+				 <a href="https://en.wikipedia.org/wiki/Music"> Music </a>
+				 <a href="https://en.wikipedia.org/wiki/Education">  Education</a>
+				</h5>
+				</div>
+				<hr/>
+				<div class="grid-item1"> 
+					<div class="container">
+						<p class="test1">WEB DESIGN</p>
+						<p class="test2">Topics Listing Template based on Bootstrap 5 </p>
+						<img src="image/web.png" height="210px" width="300px">
+					</div>
+					<div class="container">
+						<p class="test1">GRAPHICS</p>
+						<p class="test2">Lorem Ipsum dolor sit amet consectetur</p>
+						<img src="image/graphic.png" class="user2" height="210px" width="290px">
+					</div>
+					<div class="container">
+						
+						<p class="test1">LOGO DESIGN</p>
+						<p class="test2">Lorem Ipsum dolor sit amet consectetur</p>
+						<div class="user">
+						<img src="image/logo.png" height="200px" width="290px">
+						</div>
+					</div>
+				</div>
+		</body>
+</html>
